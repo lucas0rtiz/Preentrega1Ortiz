@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Simulador de Clima</title>
+</head>
+<body>
+  <h1>Simulador de Clima</h1>
+  
+  <h2>Simulador de Ciclo</h2>
+  <button onclick="simularCiclo()">Simular Variación de Temperatura</button>
+  <ul id="resultadoCiclo"></ul>
+  
+  <h2>Simulador de Condicional</h2>
+  <label for="temperatura">Ingresa la temperatura:</label>
+  <input type="number" id="temperatura">
+  <button onclick="verificarTemperatura()">Verificar</button>
+  <p id="resultadoCondicional"></p>
+  
+  <script src="scripts/ciclo.js"></script>
+  <script src="scripts/condicional.js"></script>
+</body>
+</html>
